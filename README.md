@@ -26,8 +26,6 @@ Then open http://localhost:5173/
 - Vite
 - Storybook 10
 - Vitest + Testing Library
-- Playwright (E2E Testing)
-- Zustand (State Management)
 
 ## Project Structure
 ```
