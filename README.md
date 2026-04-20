@@ -25,7 +25,7 @@ Then open http://localhost:5173/
 - React 18 + TypeScript
 - Vite
 - Storybook 10
-- Vitest + Testing Library
+
 
 ## Project Structure
 ```
