@@ -25,9 +25,6 @@ Then open http://localhost:5173/
 - React 18 + TypeScript
 - Vite
 - Storybook 10
-- Vitest + Testing Library
-- Playwright (E2E Testing)
-- Zustand (State Management)
 
 ## Project Structure
 ```
