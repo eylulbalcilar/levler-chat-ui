@@ -1,10 +1,8 @@
-
+import Checklist from "./pages/checkout";
 
 
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello world</h1>
-    </div>
+     < Checklist />
   );
 }
