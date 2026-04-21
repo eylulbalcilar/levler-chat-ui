@@ -1,0 +1,21 @@
+.btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--color-primary);
+  color: white;
+}
+
+.btn-neutral {
+  background: var(--color-neutral);
+  color: var(--color-primary-text);
+}
+
+.btn-subtle {
+  background: var(--color-subtle);
+  color: var(--color-primary-text);
+}
