@@ -1,25 +1,38 @@
 import Button from "../components/button";
+ import { Info } from "lucide-react";
+ import { FaCheckSquare } from "react-icons/fa";
+
 
 export default function Checklist() {
   return (
     <div>
-      <h2>My Checklist</h2>
+      <h2>
+          <Info size={25} />
+        My Checklist
+      </h2>
       <p>3 tasks remaining</p>
 
       <div>
-        <span>Workout</span>
+        <span>
+          < FaCheckSquare size={18} color="purple" />
+          Workout
+        </span>
         <Button variant="neutral">Edit</Button>
         <Button variant="subtle">Delete</Button>
       </div>
 
           <div>
-      <span>Clean floors</span>
+      <span>
+       < FaCheckSquare size={18} color="purple" />
+        Clean floors</span>
         <Button variant="neutral">Edit</Button>
         <Button variant="subtle">Delete</Button>
       </div>
 
           <div>
-      <span>Cook dinner</span>
+      <span>
+       < FaCheckSquare size={18} color="purple" />
+        Cook dinner</span>
         <Button variant="neutral">Edit</Button>
         <Button variant="subtle">Delete</Button>
       </div>
